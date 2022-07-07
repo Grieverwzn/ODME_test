@@ -1,0 +1,707 @@
+File zone.csv does not exist. Please check.
+File zone.csv does not exist. Please check.
+d_period] in setting.csv...
+number of demand periods = 3
+Step 1.2: Reading section [link_type] in setting.csv...
+important: traffic_flow_code on link type 0 is 0
+important: traffic_flow_code on link type 1 is 0
+important: traffic_flow_code on link type 2 is 0
+important: traffic_flow_code on link type 3 is 0
+important: traffic_flow_code on link type 4 is 0
+important: traffic_flow_code on link type 5 is 0
+important: traffic_flow_code on link type 7 is 0
+important: traffic_flow_code on link type 8 is 0
+important: traffic_flow_code on link type 9 is 0
+number of link types = 10
+Step 1.3: Reading section [agent_type] in setting.csv...
+number of agent typess = 5
+Step 1.3: Reading zone data in zone.csv...
+Step 1.4: Reading node data in node.csv...
+number of nodes = 189
+number of multimodal activity nodes = 0
+number of zones = 56
+number of info zones = 0
+Step 1.5: Initializing O-D zone vector...
+number of zones = 56
+
+Step 1.8: Reading file section [demand_file_list] in setting.csv...
+Step 1.6: Reading link data in link.csv... 
+highlight: link SA lane changes =1 in link.csv for link 202809->202790. Please ensure the unit of the link link_distance_VDF is meter.
+highlight: link SA lane changes =1 in link.csv for link 202809->202790. Please ensure the unit of the link link_distance_VDF is meter.
+highlight: link SA lane changes =1 in link.csv for link 202809->202790. Please ensure the unit of the link link_distance_VDF is meter.
+highlight: link SA lane changes =1 in link.csv for link 202790->202809. Please ensure the unit of the link link_distance_VDF is meter.
+highlight: link SA lane changes =1 in link.csv for link 202790->202809. Please ensure the unit of the link link_distance_VDF is meter.
+highlight: link SA lane changes =1 in link.csv for link 202790->202809. Please ensure the unit of the link link_distance_VDF is meter.
+number of links = 441
+number of links =559
+Step 2.0: Reading scenario data...
+Step 1.8: Reading file section [demand_file_list] in setting.csv...
+allocating 4D memory for 0 zones,nX=56,nY=5,nZ=3
+
+Step 1.8: Reading file section [demand_file_list] in setting.csv...
+compute_cumulative_profile!
+cumulative profile ratio at slot  180 = 0.0277778
+cumulative profile ratio at slot  181 = 0.0555556
+cumulative profile ratio at slot  182 = 0.0833334
+cumulative profile ratio at slot  183 = 0.111111
+cumulative profile ratio at slot  184 = 0.138889
+cumulative profile ratio at slot  185 = 0.166667
+cumulative profile ratio at slot  186 = 0.194445
+cumulative profile ratio at slot  187 = 0.222222
+cumulative profile ratio at slot  188 = 0.25
+cumulative profile ratio at slot  189 = 0.277778
+cumulative profile ratio at slot  190 = 0.305556
+cumulative profile ratio at slot  191 = 0.333333
+cumulative profile ratio at slot  192 = 0.361111
+cumulative profile ratio at slot  193 = 0.388889
+cumulative profile ratio at slot  194 = 0.416667
+cumulative profile ratio at slot  195 = 0.444445
+cumulative profile ratio at slot  196 = 0.472222
+cumulative profile ratio at slot  197 = 0.5
+cumulative profile ratio at slot  198 = 0.527778
+cumulative profile ratio at slot  199 = 0.555556
+cumulative profile ratio at slot  200 = 0.583334
+cumulative profile ratio at slot  201 = 0.611111
+cumulative profile ratio at slot  202 = 0.638889
+cumulative profile ratio at slot  203 = 0.666667
+cumulative profile ratio at slot  204 = 0.694445
+cumulative profile ratio at slot  205 = 0.722223
+cumulative profile ratio at slot  206 = 0.75
+cumulative profile ratio at slot  207 = 0.777778
+cumulative profile ratio at slot  208 = 0.805556
+cumulative profile ratio at slot  209 = 0.833334
+cumulative profile ratio at slot  210 = 0.861111
+cumulative profile ratio at slot  211 = 0.888889
+cumulative profile ratio at slot  212 = 0.916667
+cumulative profile ratio at slot  213 = 0.944445
+cumulative profile ratio at slot  214 = 0.972223
+cumulative profile ratio at slot  215 = 1
+final cumulative profile ratio = 1
+o_zone_id:1, d_zone_id: 1, value = 0
+o_zone_id:1, d_zone_id: 2, value = 308.7
+o_zone_id:1, d_zone_id: 3, value = 438.3
+o_zone_id:1, d_zone_id: 4, value = 1846.75
+o_zone_id:1, d_zone_id: 5, value = 1150.74
+o_zone_id:1, d_zone_id: 6, value = 673.56
+total demand volume is 102708
+crtical demand volume has 2475 OD pairs in size,102577, , account for 99.8724%%
+crtical OD zones volume has 2475 OD pairs in size,102577, , account for 99.8724%%
+o_zone 0, demand=,4458.65
+o_zone 1, demand=,7515.46
+o_zone 2, demand=,4189.05
+o_zone 3, demand=,6281.86
+o_zone 4, demand=,2183.14
+o_zone 5, demand=,3764.59
+o_zone 6, demand=,1529.5
+o_zone 7, demand=,1465.82
+o_zone 8, demand=,1474.89
+o_zone 9, demand=,1508.51
+o_zone 10, demand=,196.99
+o_zone 11, demand=,1490.44
+o_zone 12, demand=,1523.69
+o_zone 13, demand=,1501.1
+o_zone 14, demand=,1518.82
+o_zone 15, demand=,1540.8
+o_zone 16, demand=,1532.84
+o_zone 17, demand=,1538.88
+o_zone 18, demand=,1530.37
+o_zone 19, demand=,1540.81
+o_zone 20, demand=,1538.4
+o_zone 21, demand=,1533.73
+o_zone 22, demand=,1538.05
+o_zone 23, demand=,1524.01
+o_zone 24, demand=,1502.74
+o_zone 25, demand=,1478.91
+o_zone 26, demand=,1502.11
+o_zone 27, demand=,1501.9
+o_zone 28, demand=,1532.52
+o_zone 29, demand=,1497.71
+o_zone 30, demand=,1454.81
+o_zone 31, demand=,1447.44
+o_zone 32, demand=,1463.17
+o_zone 33, demand=,1492.14
+o_zone 34, demand=,1517.82
+o_zone 35, demand=,1462.32
+o_zone 36, demand=,1513.5
+o_zone 37, demand=,1510.61
+o_zone 38, demand=,1503.52
+o_zone 39, demand=,1486.78
+o_zone 40, demand=,1478.33
+o_zone 41, demand=,1483.62
+o_zone 42, demand=,1511.45
+o_zone 43, demand=,1524.25
+o_zone 44, demand=,1531.26
+o_zone 45, demand=,1540.35
+o_zone 46, demand=,1514.4
+o_zone 47, demand=,1539.88
+o_zone 48, demand=,1540.65
+o_zone 49, demand=,1539.73
+o_zone 50, demand=,1534.96
+o_zone 51, demand=,1540.96
+o_zone 52, demand=,1540.44
+o_zone 53, demand=,1540.97
+o_zone 54, demand=,1531.26
+o_zone 55, demand=,1527.17
+There are  56 zones with positive demand
+Step 2: Assigning computing tasks to memory blocks...
+There are 60 SP networks in memory.
+There are 0 RTSP networks in memory.
+There are 840 agent type*zones to be computed in CPU.
+
+Step 3: Column Generation for Traffic Assignment...
+Total Column Generation iteration: 20
+
+Current iteration number:0
+Current CPU time: 0.002 s
+iteration: 0,systemTT: 90401.4
+
+Current iteration number:1
+Current CPU time: 0.017 s
+iteration: 1,systemTT: 90401.4
+
+Current iteration number:2
+Current CPU time: 0.139 s
+iteration: 2,systemTT: 7.12819e+06
+
+Current iteration number:3
+Current CPU time: 0.146 s
+iteration: 3,systemTT: 7.12819e+06
+
+Current iteration number:4
+Current CPU time: 0.153 s
+iteration: 4,systemTT: 3.78463e+06
+
+Current iteration number:5
+Current CPU time: 0.159 s
+iteration: 5,systemTT: 2.70479e+06
+
+Current iteration number:6
+Current CPU time: 0.167 s
+iteration: 6,systemTT: 2.22526e+06
+
+Current iteration number:7
+Current CPU time: 0.174 s
+iteration: 7,systemTT: 1.97635e+06
+
+Current iteration number:8
+Current CPU time: 0.182 s
+iteration: 8,systemTT: 1.83198e+06
+
+Current iteration number:9
+Current CPU time: 0.19 s
+iteration: 9,systemTT: 1.7416e+06
+
+Current iteration number:10
+Current CPU time: 0.199 s
+iteration: 10,systemTT: 1.68098e+06
+
+Current iteration number:11
+Current CPU time: 0.21 s
+iteration: 11,systemTT: 1.63866e+06
+
+Current iteration number:12
+Current CPU time: 0.217 s
+iteration: 12,systemTT: 1.60822e+06
+
+Current iteration number:13
+Current CPU time: 0.229 s
+iteration: 13,systemTT: 1.58581e+06
+
+Current iteration number:14
+Current CPU time: 0.236 s
+iteration: 14,systemTT: 1.56893e+06
+
+Current iteration number:15
+Current CPU time: 0.245 s
+iteration: 15,systemTT: 1.55594e+06
+
+Current iteration number:16
+Current CPU time: 0.254 s
+iteration: 16,systemTT: 1.54533e+06
+
+Current iteration number:17
+Current CPU time: 0.262 s
+iteration: 17,systemTT: 1.53672e+06
+
+Current iteration number:18
+Current CPU time: 0.272 s
+iteration: 18,systemTT: 1.52975e+06
+
+Current iteration number:19
+Current CPU time: 0.28 s
+iteration: 19,systemTT: 1.52403e+06
+
+Step 4: Column Pool Updating
+Total Column Pool Updating iteration: 20
+column updating: iteration= 0, avg travel time = 15.967(min), optimization obj = 32704.2,Relative_gap=2.27932 %
+column updating: iteration= 1, avg travel time = 15.6928(min), optimization obj = 6331.76,Relative_gap=0.451811 %
+column updating: iteration= 2, avg travel time = 15.6466(min), optimization obj = 1371.36,Relative_gap=0.0985059 %
+column updating: iteration= 3, avg travel time = 15.6433(min), optimization obj = 19801.9,Relative_gap=1.41801 %
+column updating: iteration= 4, avg travel time = 15.685(min), optimization obj = 5845.88,Relative_gap=0.41831 %
+column updating: iteration= 5, avg travel time = 15.6427(min), optimization obj = 1138.56,Relative_gap=0.0819281 %
+column updating: iteration= 6, avg travel time = 15.6399(min), optimization obj = 8973.82,Relative_gap=0.645778 %
+column updating: iteration= 7, avg travel time = 15.643(min), optimization obj = 1077.35,Relative_gap=0.0775487 %
+column updating: iteration= 8, avg travel time = 15.6395(min), optimization obj = 3688.05,Relative_gap=0.265745 %
+column updating: iteration= 9, avg travel time = 15.64(min), optimization obj = 585.686,Relative_gap=0.0422125 %
+column updating: iteration= 10, avg travel time = 15.6394(min), optimization obj = 801.982,Relative_gap=0.0578193 %
+column updating: iteration= 11, avg travel time = 15.6393(min), optimization obj = 460.863,Relative_gap=0.0332282 %
+column updating: iteration= 12, avg travel time = 15.6392(min), optimization obj = 506.036,Relative_gap=0.036487 %
+column updating: iteration= 13, avg travel time = 15.6391(min), optimization obj = 443.327,Relative_gap=0.0319663 %
+column updating: iteration= 14, avg travel time = 15.639(min), optimization obj = 466.673,Relative_gap=0.0336505 %
+column updating: iteration= 15, avg travel time = 15.639(min), optimization obj = 431.726,Relative_gap=0.0311312 %
+column updating: iteration= 16, avg travel time = 15.6389(min), optimization obj = 449.838,Relative_gap=0.032438 %
+column updating: iteration= 17, avg travel time = 15.6389(min), optimization obj = 423.086,Relative_gap=0.0305093 %
+column updating: iteration= 18, avg travel time = 15.6388(min), optimization obj = 440.429,Relative_gap=0.0317604 %
+column updating: iteration= 19, avg travel time = 15.6388(min), optimization obj = 415.939,Relative_gap=0.0299948 %
+ updating updating
+Step 6: O-D estimation for traffic assignment..
+ODME #0, link MAE= 1250.55,link_MAPE: 294.126%,system_MPE: 247.105%,avg_tt = 15.7794(min) ,UE gap =0.00495034(min) = (0.0313722 %)
+count of all column pool vectors=2355, count of all paths =2694, count of column_pools with sensors = 0(0%), count of column_paths with sensors = 2620 (97.2532%)
+ODME #1, link MAE= 1108.14,link_MAPE: 272.254%,system_MPE: 224.796%,avg_tt = 15.4969(min) ,UE gap =0.00801587(min) = (0.0517257 %)
+ODME #2, link MAE= 983.823,link_MAPE: 246.654%,system_MPE: 198.52%,avg_tt = 14.6894(min) ,UE gap =0.0368547(min) = (0.250892 %)
+ODME #3, link MAE= 875.283,link_MAPE: 223.976%,system_MPE: 176.375%,avg_tt = 14.153(min) ,UE gap =0.0433125(min) = (0.306031 %)
+ODME #4, link MAE= 781.688,link_MAPE: 203.707%,system_MPE: 157.085%,avg_tt = 13.9213(min) ,UE gap =0.0526674(min) = (0.378322 %)
+ODME #5, link MAE= 704.739,link_MAPE: 185.715%,system_MPE: 140.94%,avg_tt = 13.1687(min) ,UE gap =0.0592066(min) = (0.449601 %)
+ODME #6, link MAE= 642.92,link_MAPE: 169.763%,system_MPE: 127.5%,avg_tt = 12.6323(min) ,UE gap =0.0640654(min) = (0.507156 %)
+ODME #7, link MAE= 585.746,link_MAPE: 155.355%,system_MPE: 115.59%,avg_tt = 12.1944(min) ,UE gap =0.0675557(min) = (0.553991 %)
+ODME #8, link MAE= 533.585,link_MAPE: 142.393%,system_MPE: 104.803%,avg_tt = 12.0391(min) ,UE gap =0.0707968(min) = (0.588059 %)
+ODME #9, link MAE= 487.88,link_MAPE: 130.971%,system_MPE: 95.3368%,avg_tt = 11.4627(min) ,UE gap =0.0707556(min) = (0.617271 %)
+ODME #10, link MAE= 446.822,link_MAPE: 120.907%,system_MPE: 87.1085%,avg_tt = 11.4036(min) ,UE gap =0.0707425(min) = (0.620351 %)
+ODME #11, link MAE= 409.976,link_MAPE: 111.57%,system_MPE: 79.5562%,avg_tt = 11.3085(min) ,UE gap =0.0720008(min) = (0.636697 %)
+ODME #12, link MAE= 381.35,link_MAPE: 103.838%,system_MPE: 73.8513%,avg_tt = 11.1303(min) ,UE gap =0.07218(min) = (0.648498 %)
+ODME #13, link MAE= 357.959,link_MAPE: 96.9063%,system_MPE: 67.8085%,avg_tt = 10.9256(min) ,UE gap =0.073193(min) = (0.66992 %)
+ODME #14, link MAE= 342.89,link_MAPE: 92.3392%,system_MPE: 65.9805%,avg_tt = 10.8692(min) ,UE gap =0.0743232(min) = (0.683795 %)
+ODME #15, link MAE= 322.85,link_MAPE: 86.0886%,system_MPE: 58.1263%,avg_tt = 10.6388(min) ,UE gap =0.0780567(min) = (0.733697 %)
+ODME #16, link MAE= 319.519,link_MAPE: 85.3442%,system_MPE: 62.0311%,avg_tt = 10.5598(min) ,UE gap =0.0757387(min) = (0.717234 %)
+ODME #17, link MAE= 301.427,link_MAPE: 78.8905%,system_MPE: 51.8262%,avg_tt = 10.5638(min) ,UE gap =0.0818337(min) = (0.77466 %)
+ODME #18, link MAE= 306.239,link_MAPE: 82.7202%,system_MPE: 61.8012%,avg_tt = 10.3082(min) ,UE gap =0.0783335(min) = (0.759915 %)
+ODME #19, link MAE= 287.295,link_MAPE: 75.828%,system_MPE: 49.8838%,avg_tt = 10.6508(min) ,UE gap =0.0854084(min) = (0.801894 %)
+ODME #20, link MAE= 291.364,link_MAPE: 81.3323%,system_MPE: 62.0645%,avg_tt = 10.2258(min) ,UE gap =0.0791666(min) = (0.774187 %)
+ODME #21, link MAE= 275.063,link_MAPE: 74.434%,system_MPE: 49.9428%,avg_tt = 10.1854(min) ,UE gap =0.0826726(min) = (0.811681 %)
+ODME #22, link MAE= 276.415,link_MAPE: 80.0908%,system_MPE: 62.3974%,avg_tt = 10.0133(min) ,UE gap =0.0791278(min) = (0.790227 %)
+ODME #23, link MAE= 263.704,link_MAPE: 73.4216%,system_MPE: 50.2305%,avg_tt = 9.94304(min) ,UE gap =0.0824505(min) = (0.829228 %)
+ODME #24, link MAE= 262.907,link_MAPE: 78.9035%,system_MPE: 62.7029%,avg_tt = 9.78578(min) ,UE gap =0.0787199(min) = (0.804431 %)
+ODME #25, link MAE= 254.388,link_MAPE: 72.2952%,system_MPE: 50.351%,avg_tt = 9.8461(min) ,UE gap =0.0830216(min) = (0.843193 %)
+ODME #26, link MAE= 249.478,link_MAPE: 77.5708%,system_MPE: 62.7145%,avg_tt = 9.6727(min) ,UE gap =0.0791573(min) = (0.818358 %)
+ODME #27, link MAE= 245.425,link_MAPE: 71.0916%,system_MPE: 50.4281%,avg_tt = 9.7345(min) ,UE gap =0.0845123(min) = (0.868173 %)
+ODME #28, link MAE= 238.07,link_MAPE: 76.3505%,system_MPE: 62.7765%,avg_tt = 9.47208(min) ,UE gap =0.0799969(min) = (0.844554 %)
+ODME #29, link MAE= 238.003,link_MAPE: 70.2004%,system_MPE: 50.5646%,avg_tt = 9.57208(min) ,UE gap =0.0857749(min) = (0.896095 %)
+ODME #30, link MAE= 227.587,link_MAPE: 75.5638%,system_MPE: 62.8604%,avg_tt = 9.78706(min) ,UE gap =0.0842281(min) = (0.860606 %)
+ODME #31, link MAE= 230.311,link_MAPE: 69.3191%,system_MPE: 50.5279%,avg_tt = 9.57758(min) ,UE gap =0.0878584(min) = (0.917334 %)
+ODME #32, link MAE= 217.994,link_MAPE: 74.5301%,system_MPE: 62.63%,avg_tt = 9.45113(min) ,UE gap =0.083752(min) = (0.886158 %)
+ODME #33, link MAE= 225.329,link_MAPE: 68.2259%,system_MPE: 50.0422%,avg_tt = 9.46822(min) ,UE gap =0.0886158(min) = (0.93593 %)
+ODME #34, link MAE= 208.875,link_MAPE: 73.3641%,system_MPE: 62.1431%,avg_tt = 9.27656(min) ,UE gap =0.0830661(min) = (0.895441 %)
+ODME #35, link MAE= 219.737,link_MAPE: 67.2209%,system_MPE: 49.6753%,avg_tt = 9.39706(min) ,UE gap =0.0891171(min) = (0.948351 %)
+ODME #36, link MAE= 200.641,link_MAPE: 72.3403%,system_MPE: 61.7696%,avg_tt = 9.26473(min) ,UE gap =0.0837162(min) = (0.903601 %)
+ODME #37, link MAE= 215.753,link_MAPE: 66.3596%,system_MPE: 49.253%,avg_tt = 9.18531(min) ,UE gap =0.0886054(min) = (0.964642 %)
+ODME #38, link MAE= 193.361,link_MAPE: 71.4234%,system_MPE: 61.3144%,avg_tt = 9.19311(min) ,UE gap =0.0836103(min) = (0.909489 %)
+ODME #39, link MAE= 210.523,link_MAPE: 65.458%,system_MPE: 48.8249%,avg_tt = 9.15294(min) ,UE gap =0.0886441(min) = (0.968477 %)
+ODME #40, link MAE= 186.549,link_MAPE: 70.4547%,system_MPE: 60.8705%,avg_tt = 9.05276(min) ,UE gap =0.0826655(min) = (0.913152 %)
+ODME #41, link MAE= 207.213,link_MAPE: 64.5818%,system_MPE: 48.3156%,avg_tt = 9.10768(min) ,UE gap =0.08809(min) = (0.967205 %)
+ODME #42, link MAE= 179.493,link_MAPE: 69.4392%,system_MPE: 60.3354%,avg_tt = 8.99436(min) ,UE gap =0.0815637(min) = (0.906831 %)
+ODME #43, link MAE= 201.933,link_MAPE: 63.6256%,system_MPE: 47.8883%,avg_tt = 9.03453(min) ,UE gap =0.0866039(min) = (0.958588 %)
+ODME #44, link MAE= 172.913,link_MAPE: 68.4025%,system_MPE: 59.8536%,avg_tt = 8.99459(min) ,UE gap =0.0803933(min) = (0.893796 %)
+ODME #45, link MAE= 199.189,link_MAPE: 62.7416%,system_MPE: 47.3408%,avg_tt = 9.00712(min) ,UE gap =0.0852691(min) = (0.946685 %)
+ODME #46, link MAE= 166.188,link_MAPE: 67.3753%,system_MPE: 59.2726%,avg_tt = 8.87827(min) ,UE gap =0.0790099(min) = (0.889924 %)
+ODME #47, link MAE= 193.674,link_MAPE: 61.763%,system_MPE: 46.9019%,avg_tt = 8.97966(min) ,UE gap =0.0842022(min) = (0.937699 %)
+ODME #48, link MAE= 160.849,link_MAPE: 66.3219%,system_MPE: 58.7194%,avg_tt = 8.68475(min) ,UE gap =0.0781094(min) = (0.899386 %)
+ODME #49, link MAE= 190.792,link_MAPE: 60.8345%,system_MPE: 46.3083%,avg_tt = 9.02137(min) ,UE gap =0.0838981(min) = (0.929993 %)
+ODME #50, link MAE= 155.364,link_MAPE: 65.2707%,system_MPE: 58.0654%,avg_tt = 8.8291(min) ,UE gap =0.0769974(min) = (0.872086 %)
+ODME #51, link MAE= 185.94,link_MAPE: 59.8083%,system_MPE: 45.7831%,avg_tt = 8.80841(min) ,UE gap =0.0816808(min) = (0.927304 %)
+ODME #52, link MAE= 150.377,link_MAPE: 64.2162%,system_MPE: 57.4848%,avg_tt = 8.7726(min) ,UE gap =0.0758663(min) = (0.86481 %)
+ODME #53, link MAE= 184.496,link_MAPE: 58.9146%,system_MPE: 45.1153%,avg_tt = 8.8385(min) ,UE gap =0.0809598(min) = (0.915991 %)
+ODME #54, link MAE= 145.905,link_MAPE: 63.2274%,system_MPE: 56.7796%,avg_tt = 8.67079(min) ,UE gap =0.0749536(min) = (0.864438 %)
+ODME #55, link MAE= 181.36,link_MAPE: 58.006%,system_MPE: 44.5357%,avg_tt = 8.79805(min) ,UE gap =0.0798848(min) = (0.907983 %)
+ODME #56, link MAE= 142.512,link_MAPE: 62.3016%,system_MPE: 56.1397%,avg_tt = 8.68957(min) ,UE gap =0.0743347(min) = (0.855447 %)
+ODME #57, link MAE= 181.509,link_MAPE: 57.2459%,system_MPE: 43.835%,avg_tt = 8.735(min) ,UE gap =0.0790634(min) = (0.905133 %)
+ODME #58, link MAE= 139.12,link_MAPE: 61.4119%,system_MPE: 55.3949%,avg_tt = 8.62921(min) ,UE gap =0.0733643(min) = (0.850186 %)
+ODME #59, link MAE= 178.027,link_MAPE: 56.4184%,system_MPE: 43.3202%,avg_tt = 8.71789(min) ,UE gap =0.0780496(min) = (0.895282 %)
+ODME #60, link MAE= 137.501,link_MAPE: 60.6115%,system_MPE: 54.8059%,avg_tt = 8.64159(min) ,UE gap =0.0726753(min) = (0.840995 %)
+ODME #61, link MAE= 179.626,link_MAPE: 55.7716%,system_MPE: 42.6161%,avg_tt = 8.67209(min) ,UE gap =0.0777558(min) = (0.896621 %)
+ODME #62, link MAE= 134.64,link_MAPE: 59.8315%,system_MPE: 54.0834%,avg_tt = 8.61073(min) ,UE gap =0.0720584(min) = (0.836845 %)
+ODME #63, link MAE= 175.698,link_MAPE: 55.0043%,system_MPE: 42.177%,avg_tt = 8.62492(min) ,UE gap =0.0764834(min) = (0.886773 %)
+ODME #64, link MAE= 134.263,link_MAPE: 59.1409%,system_MPE: 53.5652%,avg_tt = 8.59587(min) ,UE gap =0.0709069(min) = (0.824895 %)
+ODME #65, link MAE= 178.109,link_MAPE: 54.4475%,system_MPE: 41.4872%,avg_tt = 8.65401(min) ,UE gap =0.0758087(min) = (0.875995 %)
+ODME #66, link MAE= 131.35,link_MAPE: 58.4165%,system_MPE: 52.8552%,avg_tt = 8.42296(min) ,UE gap =0.0702648(min) = (0.834206 %)
+ODME #67, link MAE= 174.464,link_MAPE: 53.7613%,system_MPE: 41.0893%,avg_tt = 8.7186(min) ,UE gap =0.075896(min) = (0.870506 %)
+ODME #68, link MAE= 131.212,link_MAPE: 57.7821%,system_MPE: 52.3772%,avg_tt = 8.64479(min) ,UE gap =0.0706819(min) = (0.817624 %)
+ODME #69, link MAE= 176.887,link_MAPE: 53.2659%,system_MPE: 40.4488%,avg_tt = 8.58608(min) ,UE gap =0.07423(min) = (0.864538 %)
+ODME #70, link MAE= 128.993,link_MAPE: 57.1192%,system_MPE: 51.718%,avg_tt = 8.557(min) ,UE gap =0.0690354(min) = (0.806771 %)
+ODME #71, link MAE= 171.96,link_MAPE: 52.5822%,system_MPE: 40.1403%,avg_tt = 8.52546(min) ,UE gap =0.0730775(min) = (0.857168 %)
+ODME #72, link MAE= 129.338,link_MAPE: 56.5262%,system_MPE: 51.3136%,avg_tt = 8.57177(min) ,UE gap =0.0685146(min) = (0.799305 %)
+ODME #73, link MAE= 175.234,link_MAPE: 52.1462%,system_MPE: 39.4848%,avg_tt = 8.56968(min) ,UE gap =0.0725896(min) = (0.847052 %)
+ODME #74, link MAE= 126.75,link_MAPE: 55.8841%,system_MPE: 50.6459%,avg_tt = 8.56214(min) ,UE gap =0.068133(min) = (0.795748 %)
+ODME #75, link MAE= 172.228,link_MAPE: 51.5509%,system_MPE: 39.1244%,avg_tt = 8.54268(min) ,UE gap =0.0714587(min) = (0.83649 %)
+ODME #76, link MAE= 126.927,link_MAPE: 55.3288%,system_MPE: 50.2086%,avg_tt = 8.50905(min) ,UE gap =0.0668737(min) = (0.785912 %)
+ODME #77, link MAE= 174.119,link_MAPE: 51.1056%,system_MPE: 38.5574%,avg_tt = 8.51581(min) ,UE gap =0.0709681(min) = (0.833369 %)
+ODME #78, link MAE= 125.497,link_MAPE: 54.7443%,system_MPE: 49.6097%,avg_tt = 8.49075(min) ,UE gap =0.0661575(min) = (0.779171 %)
+ODME #79, link MAE= 167.983,link_MAPE: 50.4537%,system_MPE: 38.3722%,avg_tt = 8.53231(min) ,UE gap =0.0704819(min) = (0.826059 %)
+ODME #80, link MAE= 126.37,link_MAPE: 54.2304%,system_MPE: 49.307%,avg_tt = 8.49313(min) ,UE gap =0.0660662(min) = (0.777878 %)
+ODME #81, link MAE= 171.979,link_MAPE: 50.0795%,system_MPE: 37.6958%,avg_tt = 8.54615(min) ,UE gap =0.0706084(min) = (0.826201 %)
+ODME #82, link MAE= 123.692,link_MAPE: 53.6409%,system_MPE: 48.6508%,avg_tt = 8.44412(min) ,UE gap =0.0653128(min) = (0.77347 %)
+ODME #83, link MAE= 171.183,link_MAPE: 49.5818%,system_MPE: 37.2821%,avg_tt = 8.48541(min) ,UE gap =0.0695056(min) = (0.81912 %)
+ODME #84, link MAE= 123.679,link_MAPE: 53.1318%,system_MPE: 48.1752%,avg_tt = 8.49865(min) ,UE gap =0.0647774(min) = (0.762207 %)
+ODME #85, link MAE= 170.779,link_MAPE: 49.1173%,system_MPE: 36.8561%,avg_tt = 8.46284(min) ,UE gap =0.0687219(min) = (0.812043 %)
+ODME #86, link MAE= 123.301,link_MAPE: 52.6196%,system_MPE: 47.6909%,avg_tt = 8.47474(min) ,UE gap =0.0646899(min) = (0.763326 %)
+ODME #87, link MAE= 169.311,link_MAPE: 48.6362%,system_MPE: 36.4941%,avg_tt = 8.47919(min) ,UE gap =0.0684356(min) = (0.807101 %)
+ODME #88, link MAE= 123.095,link_MAPE: 52.1353%,system_MPE: 47.2649%,avg_tt = 8.43028(min) ,UE gap =0.0641501(min) = (0.760948 %)
+ODME #89, link MAE= 170.26,link_MAPE: 48.251%,system_MPE: 36.038%,avg_tt = 8.58676(min) ,UE gap =0.0690836(min) = (0.804536 %)
+ODME #90, link MAE= 122.382,link_MAPE: 51.6434%,system_MPE: 46.769%,avg_tt = 8.43678(min) ,UE gap =0.0641294(min) = (0.760117 %)
+ODME #91, link MAE= 166.355,link_MAPE: 47.7337%,system_MPE: 35.8234%,avg_tt = 8.51603(min) ,UE gap =0.0687453(min) = (0.807245 %)
+ODME #92, link MAE= 122.515,link_MAPE: 51.1822%,system_MPE: 46.452%,avg_tt = 8.38464(min) ,UE gap =0.0643369(min) = (0.767319 %)
+ODME #93, link MAE= 169.512,link_MAPE: 47.4207%,system_MPE: 35.2428%,avg_tt = 8.46023(min) ,UE gap =0.0685332(min) = (0.810062 %)
+ODME #94, link MAE= 121.266,link_MAPE: 50.711%,system_MPE: 45.8899%,avg_tt = 8.21211(min) ,UE gap =0.0638439(min) = (0.777436 %)
+ODME #95, link MAE= 167.42,link_MAPE: 46.9526%,system_MPE: 34.9512%,avg_tt = 8.48073(min) ,UE gap =0.0681539(min) = (0.803632 %)
+ODME #96, link MAE= 121.433,link_MAPE: 50.2651%,system_MPE: 45.5097%,avg_tt = 8.43671(min) ,UE gap =0.0641036(min) = (0.759817 %)
+ODME #97, link MAE= 167.951,link_MAPE: 46.5886%,system_MPE: 34.5196%,avg_tt = 8.53822(min) ,UE gap =0.0686996(min) = (0.804613 %)
+ODME #98, link MAE= 121,link_MAPE: 49.8361%,system_MPE: 45.0418%,avg_tt = 8.35151(min) ,UE gap =0.0635749(min) = (0.761239 %)
+ODME #99, link MAE= 165.297,link_MAPE: 46.1265%,system_MPE: 34.2597%,avg_tt = 8.48762(min) ,UE gap =0.0683994(min) = (0.805873 %)
+ODME #100, link MAE= 121.239,link_MAPE: 49.4252%,system_MPE: 44.7079%,avg_tt = 8.43335(min) ,UE gap =0.0645415(min) = (0.765312 %)
+ODME #101, link MAE= 166.748,link_MAPE: 45.8057%,system_MPE: 33.7918%,avg_tt = 8.39766(min) ,UE gap =0.0684708(min) = (0.815356 %)
+ODME #102, link MAE= 120.433,link_MAPE: 48.9886%,system_MPE: 44.2176%,avg_tt = 8.4263(min) ,UE gap =0.0637625(min) = (0.756708 %)
+ODME #103, link MAE= 165.485,link_MAPE: 45.386%,system_MPE: 33.4936%,avg_tt = 8.4565(min) ,UE gap =0.0682642(min) = (0.807239 %)
+ODME #104, link MAE= 120.306,link_MAPE: 48.5696%,system_MPE: 43.8587%,avg_tt = 8.40595(min) ,UE gap =0.064913(min) = (0.772227 %)
+ODME #105, link MAE= 165.88,link_MAPE: 45.0408%,system_MPE: 33.097%,avg_tt = 8.43405(min) ,UE gap =0.0683127(min) = (0.809963 %)
+ODME #106, link MAE= 120.124,link_MAPE: 48.1679%,system_MPE: 43.4205%,avg_tt = 8.3824(min) ,UE gap =0.064112(min) = (0.76484 %)
+ODME #107, link MAE= 163.501,link_MAPE: 44.601%,system_MPE: 32.8568%,avg_tt = 8.39819(min) ,UE gap =0.0686039(min) = (0.816889 %)
+ODME #108, link MAE= 120.176,link_MAPE: 47.7655%,system_MPE: 43.1112%,avg_tt = 8.41198(min) ,UE gap =0.0653844(min) = (0.777277 %)
+ODME #109, link MAE= 164.769,link_MAPE: 44.2949%,system_MPE: 32.4203%,avg_tt = 8.46832(min) ,UE gap =0.0693051(min) = (0.818404 %)
+ODME #110, link MAE= 119.954,link_MAPE: 47.3696%,system_MPE: 42.6493%,avg_tt = 8.22496(min) ,UE gap =0.0647009(min) = (0.786641 %)
+ODME #111, link MAE= 162.654,link_MAPE: 43.8751%,system_MPE: 32.1868%,avg_tt = 8.42008(min) ,UE gap =0.0691771(min) = (0.821573 %)
+ODME #112, link MAE= 120.015,link_MAPE: 46.9831%,system_MPE: 42.3443%,avg_tt = 8.36609(min) ,UE gap =0.0653794(min) = (0.781481 %)
+ODME #113, link MAE= 163.654,link_MAPE: 43.5808%,system_MPE: 31.7859%,avg_tt = 8.4335(min) ,UE gap =0.069102(min) = (0.819375 %)
+ODME #114, link MAE= 119.923,link_MAPE: 46.6057%,system_MPE: 41.912%,avg_tt = 8.37621(min) ,UE gap =0.0647938(min) = (0.773545 %)
+ODME #115, link MAE= 161.165,link_MAPE: 43.1575%,system_MPE: 31.5827%,avg_tt = 8.47272(min) ,UE gap =0.0700254(min) = (0.82648 %)
+ODME #116, link MAE= 120.005,link_MAPE: 46.2339%,system_MPE: 41.6394%,avg_tt = 8.39292(min) ,UE gap =0.066695(min) = (0.794658 %)
+ODME #117, link MAE= 162.672,link_MAPE: 42.8892%,system_MPE: 31.1508%,avg_tt = 8.46016(min) ,UE gap =0.0709242(min) = (0.838332 %)
+ODME #118, link MAE= 119.915,link_MAPE: 45.8667%,system_MPE: 41.1887%,avg_tt = 8.41815(min) ,UE gap =0.0663089(min) = (0.787689 %)
+ODME #119, link MAE= 160.929,link_MAPE: 42.5186%,system_MPE: 30.9313%,avg_tt = 8.43622(min) ,UE gap =0.0701368(min) = (0.831377 %)
+ODME #120, link MAE= 120.123,link_MAPE: 45.534%,system_MPE: 40.9058%,avg_tt = 8.38504(min) ,UE gap =0.0658037(min) = (0.784776 %)
+ODME #121, link MAE= 161.987,link_MAPE: 42.2577%,system_MPE: 30.552%,avg_tt = 8.38767(min) ,UE gap =0.0695826(min) = (0.829582 %)
+ODME #122, link MAE= 120.428,link_MAPE: 45.2008%,system_MPE: 40.4999%,avg_tt = 8.3707(min) ,UE gap =0.0653411(min) = (0.780593 %)
+ODME #123, link MAE= 159.835,link_MAPE: 41.9202%,system_MPE: 30.3743%,avg_tt = 8.38355(min) ,UE gap =0.0698372(min) = (0.833026 %)
+ODME #124, link MAE= 120.686,link_MAPE: 44.8789%,system_MPE: 40.2471%,avg_tt = 8.38696(min) ,UE gap =0.066822(min) = (0.796737 %)
+ODME #125, link MAE= 161.962,link_MAPE: 41.7477%,system_MPE: 29.9581%,avg_tt = 8.37439(min) ,UE gap =0.0704869(min) = (0.841697 %)
+ODME #126, link MAE= 120.731,link_MAPE: 44.5644%,system_MPE: 39.8199%,avg_tt = 8.35765(min) ,UE gap =0.0659169(min) = (0.788701 %)
+ODME #127, link MAE= 159.12,link_MAPE: 41.3931%,system_MPE: 29.8425%,avg_tt = 8.40186(min) ,UE gap =0.070549(min) = (0.839683 %)
+ODME #128, link MAE= 121.199,link_MAPE: 44.2937%,system_MPE: 39.6131%,avg_tt = 8.33002(min) ,UE gap =0.0672836(min) = (0.807724 %)
+ODME #129, link MAE= 161.664,link_MAPE: 41.2353%,system_MPE: 29.4078%,avg_tt = 8.41379(min) ,UE gap =0.0716831(min) = (0.851973 %)
+ODME #130, link MAE= 121.071,link_MAPE: 43.9906%,system_MPE: 39.1791%,avg_tt = 8.37888(min) ,UE gap =0.0666831(min) = (0.795847 %)
+ODME #131, link MAE= 159.177,link_MAPE: 40.9074%,system_MPE: 29.2887%,avg_tt = 8.39771(min) ,UE gap =0.070716(min) = (0.842086 %)
+ODME #132, link MAE= 121.572,link_MAPE: 43.7199%,system_MPE: 38.9626%,avg_tt = 8.37076(min) ,UE gap =0.0667177(min) = (0.797033 %)
+ODME #133, link MAE= 161.423,link_MAPE: 40.7394%,system_MPE: 28.8826%,avg_tt = 8.41054(min) ,UE gap =0.0707129(min) = (0.840766 %)
+ODME #134, link MAE= 121.545,link_MAPE: 43.4272%,system_MPE: 38.558%,avg_tt = 8.34094(min) ,UE gap =0.0662004(min) = (0.79368 %)
+ODME #135, link MAE= 157.851,link_MAPE: 40.397%,system_MPE: 28.8468%,avg_tt = 8.40466(min) ,UE gap =0.0708845(min) = (0.843395 %)
+ODME #136, link MAE= 122.021,link_MAPE: 43.1994%,system_MPE: 38.4152%,avg_tt = 8.39888(min) ,UE gap =0.0679557(min) = (0.809103 %)
+ODME #137, link MAE= 160.659,link_MAPE: 40.2547%,system_MPE: 28.4076%,avg_tt = 8.38929(min) ,UE gap =0.0711548(min) = (0.848163 %)
+ODME #138, link MAE= 121.669,link_MAPE: 42.8932%,system_MPE: 37.9903%,avg_tt = 8.38783(min) ,UE gap =0.0674296(min) = (0.803899 %)
+ODME #139, link MAE= 158.11,link_MAPE: 40.0935%,system_MPE: 28.4767%,avg_tt = 8.37486(min) ,UE gap =0.0705314(min) = (0.84218 %)
+ODME #140, link MAE= 121.853,link_MAPE: 42.7864%,system_MPE: 37.9694%,avg_tt = 8.38314(min) ,UE gap =0.0665457(min) = (0.793804 %)
+ODME #141, link MAE= 159.693,link_MAPE: 39.8987%,system_MPE: 28.1058%,avg_tt = 8.35996(min) ,UE gap =0.0701694(min) = (0.839351 %)
+ODME #142, link MAE= 121.826,link_MAPE: 42.5001%,system_MPE: 37.6022%,avg_tt = 8.3695(min) ,UE gap =0.0661727(min) = (0.790641 %)
+ODME #143, link MAE= 158.386,link_MAPE: 39.6705%,system_MPE: 27.9816%,avg_tt = 8.38133(min) ,UE gap =0.0695562(min) = (0.829894 %)
+ODME #144, link MAE= 121.927,link_MAPE: 42.279%,system_MPE: 37.41%,avg_tt = 8.33769(min) ,UE gap =0.0658139(min) = (0.789354 %)
+ODME #145, link MAE= 159.067,link_MAPE: 39.4642%,system_MPE: 27.6886%,avg_tt = 8.37058(min) ,UE gap =0.0691029(min) = (0.825545 %)
+ODME #146, link MAE= 121.995,link_MAPE: 42.0158%,system_MPE: 37.092%,avg_tt = 8.32544(min) ,UE gap =0.0651828(min) = (0.782935 %)
+ODME #147, link MAE= 156.915,link_MAPE: 39.4003%,system_MPE: 27.8195%,avg_tt = 8.34262(min) ,UE gap =0.0683327(min) = (0.819079 %)
+ODME #148, link MAE= 121.954,link_MAPE: 42.0133%,system_MPE: 37.1534%,avg_tt = 8.35491(min) ,UE gap =0.0645229(min) = (0.772276 %)
+ODME #149, link MAE= 158.47,link_MAPE: 39.2146%,system_MPE: 27.474%,avg_tt = 8.38933(min) ,UE gap =0.0679934(min) = (0.810476 %)
+ODME #150, link MAE= 121.77,link_MAPE: 41.7377%,system_MPE: 36.8151%,avg_tt = 8.33205(min) ,UE gap =0.0638519(min) = (0.766341 %)
+ODME #151, link MAE= 156.88,link_MAPE: 39.0014%,system_MPE: 27.4004%,avg_tt = 8.17715(min) ,UE gap =0.0674054(min) = (0.824315 %)
+ODME #152, link MAE= 121.881,link_MAPE: 41.5676%,system_MPE: 36.6716%,avg_tt = 8.30134(min) ,UE gap =0.0636835(min) = (0.767147 %)
+ODME #153, link MAE= 157.936,link_MAPE: 38.821%,system_MPE: 27.1174%,avg_tt = 8.36226(min) ,UE gap =0.0670356(min) = (0.801644 %)
+ODME #154, link MAE= 121.709,link_MAPE: 41.3304%,system_MPE: 36.3726%,avg_tt = 8.30589(min) ,UE gap =0.0633158(min) = (0.7623 %)
+ODME #155, link MAE= 155.392,link_MAPE: 38.7431%,system_MPE: 27.2736%,avg_tt = 8.30486(min) ,UE gap =0.0664677(min) = (0.800347 %)
+ODME #156, link MAE= 121.709,link_MAPE: 41.3462%,system_MPE: 36.4515%,avg_tt = 8.31674(min) ,UE gap =0.062845(min) = (0.755645 %)
+ODME #157, link MAE= 157.298,link_MAPE: 38.6009%,system_MPE: 26.9254%,avg_tt = 8.32074(min) ,UE gap =0.0660904(min) = (0.794286 %)
+ODME #158, link MAE= 121.457,link_MAPE: 41.1029%,system_MPE: 36.1229%,avg_tt = 8.35694(min) ,UE gap =0.0625584(min) = (0.748579 %)
+ODME #159, link MAE= 154.65,link_MAPE: 38.4543%,system_MPE: 27.0097%,avg_tt = 8.42727(min) ,UE gap =0.0660128(min) = (0.783323 %)
+ODME #160, link MAE= 121.45,link_MAPE: 41.0308%,system_MPE: 36.1183%,avg_tt = 8.35337(min) ,UE gap =0.0618522(min) = (0.740446 %)
+ODME #161, link MAE= 156.491,link_MAPE: 38.3171%,system_MPE: 26.6746%,avg_tt = 8.34583(min) ,UE gap =0.0648535(min) = (0.777077 %)
+ODME #162, link MAE= 121.196,link_MAPE: 40.7936%,system_MPE: 35.7999%,avg_tt = 8.45326(min) ,UE gap =0.0622752(min) = (0.736701 %)
+ODME #163, link MAE= 153.726,link_MAPE: 38.247%,system_MPE: 26.8399%,avg_tt = 8.36275(min) ,UE gap =0.0644494(min) = (0.770672 %)
+ODME #164, link MAE= 121.265,link_MAPE: 40.8123%,system_MPE: 35.8863%,avg_tt = 8.31447(min) ,UE gap =0.0611218(min) = (0.735126 %)
+ODME #165, link MAE= 155.496,link_MAPE: 38.107%,system_MPE: 26.5168%,avg_tt = 8.32829(min) ,UE gap =0.0639456(min) = (0.767811 %)
+ODME #166, link MAE= 120.942,link_MAPE: 40.5877%,system_MPE: 35.5898%,avg_tt = 8.31653(min) ,UE gap =0.060428(min) = (0.726601 %)
+ODME #167, link MAE= 153.539,link_MAPE: 37.9415%,system_MPE: 26.5154%,avg_tt = 8.33003(min) ,UE gap =0.0634004(min) = (0.761107 %)
+ODME #168, link MAE= 120.943,link_MAPE: 40.465%,system_MPE: 35.5078%,avg_tt = 8.33287(min) ,UE gap =0.0599649(min) = (0.719618 %)
+ODME #169, link MAE= 154.667,link_MAPE: 37.7875%,system_MPE: 26.2473%,avg_tt = 8.32089(min) ,UE gap =0.0629768(min) = (0.756852 %)
+ODME #170, link MAE= 120.809,link_MAPE: 40.2699%,system_MPE: 35.2579%,avg_tt = 8.32163(min) ,UE gap =0.0594481(min) = (0.71438 %)
+ODME #171, link MAE= 152.074,link_MAPE: 37.7527%,system_MPE: 26.4489%,avg_tt = 8.38183(min) ,UE gap =0.0625569(min) = (0.746339 %)
+ODME #172, link MAE= 120.849,link_MAPE: 40.3099%,system_MPE: 35.3696%,avg_tt = 8.09415(min) ,UE gap =0.0589242(min) = (0.727985 %)
+ODME #173, link MAE= 153.689,link_MAPE: 37.6136%,system_MPE: 26.142%,avg_tt = 8.37078(min) ,UE gap =0.0619185(min) = (0.739698 %)
+ODME #174, link MAE= 120.548,link_MAPE: 40.1174%,system_MPE: 35.1092%,avg_tt = 8.3704(min) ,UE gap =0.0586173(min) = (0.700293 %)
+ODME #175, link MAE= 152.17,link_MAPE: 37.4178%,system_MPE: 26.0806%,avg_tt = 8.33327(min) ,UE gap =0.0613444(min) = (0.736139 %)
+ODME #176, link MAE= 120.608,link_MAPE: 39.9559%,system_MPE: 34.9777%,avg_tt = 8.18106(min) ,UE gap =0.0590063(min) = (0.721255 %)
+ODME #177, link MAE= 152.995,link_MAPE: 37.2651%,system_MPE: 25.8501%,avg_tt = 8.34222(min) ,UE gap =0.0607115(min) = (0.727762 %)
+ODME #178, link MAE= 120.545,link_MAPE: 39.7668%,system_MPE: 34.7453%,avg_tt = 8.3067(min) ,UE gap =0.0573196(min) = (0.69004 %)
+ODME #179, link MAE= 150.623,link_MAPE: 37.1826%,system_MPE: 25.9865%,avg_tt = 8.34875(min) ,UE gap =0.060078(min) = (0.719605 %)
+ODME #180, link MAE= 120.731,link_MAPE: 39.7698%,system_MPE: 34.8092%,avg_tt = 8.39969(min) ,UE gap =0.0573907(min) = (0.683247 %)
+ODME #181, link MAE= 152.216,link_MAPE: 37.0447%,system_MPE: 25.6975%,avg_tt = 8.34094(min) ,UE gap =0.060028(min) = (0.71968 %)
+ODME #182, link MAE= 120.453,link_MAPE: 39.5742%,system_MPE: 34.555%,avg_tt = 8.31698(min) ,UE gap =0.0566056(min) = (0.680603 %)
+ODME #183, link MAE= 150.421,link_MAPE: 36.851%,system_MPE: 25.6738%,avg_tt = 8.32075(min) ,UE gap =0.0590993(min) = (0.710265 %)
+ODME #184, link MAE= 120.6,link_MAPE: 39.429%,system_MPE: 34.4555%,avg_tt = 8.12654(min) ,UE gap =0.0560872(min) = (0.690173 %)
+ODME #185, link MAE= 151.563,link_MAPE: 36.709%,system_MPE: 25.4365%,avg_tt = 8.32306(min) ,UE gap =0.0586008(min) = (0.704077 %)
+ODME #186, link MAE= 120.462,link_MAPE: 39.244%,system_MPE: 34.2318%,avg_tt = 8.36513(min) ,UE gap =0.0560722(min) = (0.670309 %)
+ODME #187, link MAE= 149.013,link_MAPE: 36.5955%,system_MPE: 25.5637%,avg_tt = 8.30784(min) ,UE gap =0.0583203(min) = (0.701991 %)
+ODME #188, link MAE= 120.713,link_MAPE: 39.2094%,system_MPE: 34.2743%,avg_tt = 8.29667(min) ,UE gap =0.0553614(min) = (0.667272 %)
+ODME #189, link MAE= 150.806,link_MAPE: 36.4667%,system_MPE: 25.2791%,avg_tt = 8.33082(min) ,UE gap =0.0578729(min) = (0.694684 %)
+ODME #190, link MAE= 120.375,link_MAPE: 39.0384%,system_MPE: 34.0384%,avg_tt = 8.27967(min) ,UE gap =0.054943(min) = (0.663589 %)
+ODME #191, link MAE= 149.028,link_MAPE: 36.2607%,system_MPE: 25.2417%,avg_tt = 8.58359(min) ,UE gap =0.0593696(min) = (0.691664 %)
+ODME #192, link MAE= 120.62,link_MAPE: 38.8935%,system_MPE: 33.9188%,avg_tt = 8.31873(min) ,UE gap =0.05465(min) = (0.656951 %)
+ODME #193, link MAE= 150.113,link_MAPE: 36.1431%,system_MPE: 25.0202%,avg_tt = 8.33718(min) ,UE gap =0.0571877(min) = (0.685936 %)
+ODME #194, link MAE= 120.456,link_MAPE: 38.7345%,system_MPE: 33.7095%,avg_tt = 8.34602(min) ,UE gap =0.0544626(min) = (0.652558 %)
+ODME #195, link MAE= 147.871,link_MAPE: 36.0252%,system_MPE: 25.091%,avg_tt = 8.32102(min) ,UE gap =0.0569372(min) = (0.684257 %)
+ODME #196, link MAE= 120.772,link_MAPE: 38.6783%,system_MPE: 33.7007%,avg_tt = 8.31078(min) ,UE gap =0.0541284(min) = (0.651304 %)
+ODME #197, link MAE= 149.526,link_MAPE: 35.9258%,system_MPE: 24.8206%,avg_tt = 8.31786(min) ,UE gap =0.0565496(min) = (0.679857 %)
+ODME #198, link MAE= 120.482,link_MAPE: 38.5131%,system_MPE: 33.4651%,avg_tt = 8.32975(min) ,UE gap =0.0536663(min) = (0.644273 %)
+ODME #199, link MAE= 147.698,link_MAPE: 35.7506%,system_MPE: 24.7986%,avg_tt = 8.31692(min) ,UE gap =0.056381(min) = (0.677907 %)
+ODME #200, link MAE= 120.813,link_MAPE: 38.3764%,system_MPE: 33.3615%,avg_tt = 8.30021(min) ,UE gap =0.0534063(min) = (0.643433 %)
+ODME #201, link MAE= 148.962,link_MAPE: 35.647%,system_MPE: 24.5657%,avg_tt = 8.31363(min) ,UE gap =0.0558477(min) = (0.671761 %)
+ODME #202, link MAE= 120.646,link_MAPE: 38.2177%,system_MPE: 33.1484%,avg_tt = 8.28019(min) ,UE gap =0.0530096(min) = (0.640198 %)
+ODME #203, link MAE= 146.874,link_MAPE: 35.519%,system_MPE: 24.6204%,avg_tt = 8.2969(min) ,UE gap =0.0556372(min) = (0.670577 %)
+ODME #204, link MAE= 121.041,link_MAPE: 38.1507%,system_MPE: 33.1261%,avg_tt = 8.30577(min) ,UE gap =0.0527345(min) = (0.634915 %)
+ODME #205, link MAE= 148.356,link_MAPE: 35.4193%,system_MPE: 24.3677%,avg_tt = 8.29457(min) ,UE gap =0.0553021(min) = (0.666726 %)
+ODME #206, link MAE= 120.772,link_MAPE: 37.9873%,system_MPE: 32.9042%,avg_tt = 8.29719(min) ,UE gap =0.0526185(min) = (0.634172 %)
+ODME #207, link MAE= 146.695,link_MAPE: 35.2536%,system_MPE: 24.3488%,avg_tt = 8.32044(min) ,UE gap =0.0551402(min) = (0.662707 %)
+ODME #208, link MAE= 121.096,link_MAPE: 37.8599%,system_MPE: 32.8133%,avg_tt = 8.25147(min) ,UE gap =0.0522792(min) = (0.633574 %)
+ODME #209, link MAE= 147.833,link_MAPE: 35.1533%,system_MPE: 24.13%,avg_tt = 8.33613(min) ,UE gap =0.054799(min) = (0.657367 %)
+ODME #210, link MAE= 120.923,link_MAPE: 37.7049%,system_MPE: 32.6152%,avg_tt = 8.26413(min) ,UE gap =0.051851(min) = (0.627423 %)
+ODME #211, link MAE= 146.037,link_MAPE: 35.0068%,system_MPE: 24.1476%,avg_tt = 8.34847(min) ,UE gap =0.0546607(min) = (0.654739 %)
+ODME #212, link MAE= 121.247,link_MAPE: 37.5979%,system_MPE: 32.5547%,avg_tt = 8.33827(min) ,UE gap =0.0518166(min) = (0.621431 %)
+ODME #213, link MAE= 147.31,link_MAPE: 34.9153%,system_MPE: 23.9156%,avg_tt = 8.32882(min) ,UE gap =0.0542227(min) = (0.651026 %)
+ODME #214, link MAE= 121.031,link_MAPE: 37.4459%,system_MPE: 32.3515%,avg_tt = 8.21386(min) ,UE gap =0.0513179(min) = (0.624772 %)
+ODME #215, link MAE= 145.691,link_MAPE: 34.7664%,system_MPE: 23.9183%,avg_tt = 8.32302(min) ,UE gap =0.0537928(min) = (0.646314 %)
+ODME #216, link MAE= 121.278,link_MAPE: 37.3352%,system_MPE: 32.2829%,avg_tt = 8.40573(min) ,UE gap =0.0518471(min) = (0.616807 %)
+ODME #217, link MAE= 146.754,link_MAPE: 34.6718%,system_MPE: 23.7026%,avg_tt = 8.31296(min) ,UE gap =0.053665(min) = (0.645558 %)
+ODME #218, link MAE= 121.172,link_MAPE: 37.2014%,system_MPE: 32.0932%,avg_tt = 8.11644(min) ,UE gap =0.05077(min) = (0.625521 %)
+ODME #219, link MAE= 145.184,link_MAPE: 34.5261%,system_MPE: 23.7056%,avg_tt = 8.30986(min) ,UE gap =0.0532968(min) = (0.641368 %)
+ODME #220, link MAE= 121.435,link_MAPE: 37.1142%,system_MPE: 32.0312%,avg_tt = 8.25475(min) ,UE gap =0.0517074(min) = (0.626396 %)
+ODME #221, link MAE= 146.12,link_MAPE: 34.4261%,system_MPE: 23.5029%,avg_tt = 8.33115(min) ,UE gap =0.0531935(min) = (0.638489 %)
+ODME #222, link MAE= 121.318,link_MAPE: 36.9783%,system_MPE: 31.8436%,avg_tt = 8.30958(min) ,UE gap =0.0502746(min) = (0.60502 %)
+ODME #223, link MAE= 144.723,link_MAPE: 34.2805%,system_MPE: 23.4944%,avg_tt = 8.32353(min) ,UE gap =0.0527226(min) = (0.633416 %)
+ODME #224, link MAE= 121.564,link_MAPE: 36.8881%,system_MPE: 31.7746%,avg_tt = 8.28799(min) ,UE gap =0.0501029(min) = (0.604525 %)
+ODME #225, link MAE= 145.413,link_MAPE: 34.18%,system_MPE: 23.3137%,avg_tt = 8.11214(min) ,UE gap =0.0527283(min) = (0.649992 %)
+ODME #226, link MAE= 121.537,link_MAPE: 36.7676%,system_MPE: 31.6054%,avg_tt = 8.30818(min) ,UE gap =0.0498003(min) = (0.599413 %)
+ODME #227, link MAE= 144.223,link_MAPE: 34.0606%,system_MPE: 23.2916%,avg_tt = 8.22131(min) ,UE gap =0.0538432(min) = (0.654923 %)
+ODME #228, link MAE= 121.753,link_MAPE: 36.6795%,system_MPE: 31.5355%,avg_tt = 8.33421(min) ,UE gap =0.049921(min) = (0.59899 %)
+ODME #229, link MAE= 144.79,link_MAPE: 33.9764%,system_MPE: 23.1236%,avg_tt = 8.31104(min) ,UE gap =0.0519773(min) = (0.6254 %)
+ODME #230, link MAE= 121.755,link_MAPE: 36.5628%,system_MPE: 31.3764%,avg_tt = 8.33845(min) ,UE gap =0.0497325(min) = (0.596424 %)
+ODME #231, link MAE= 143.743,link_MAPE: 33.8548%,system_MPE: 23.0863%,avg_tt = 8.33664(min) ,UE gap =0.0520147(min) = (0.623929 %)
+ODME #232, link MAE= 121.891,link_MAPE: 36.4623%,system_MPE: 31.2939%,avg_tt = 8.30432(min) ,UE gap =0.049437(min) = (0.595317 %)
+ODME #233, link MAE= 144.096,link_MAPE: 33.7754%,system_MPE: 22.9433%,avg_tt = 8.28406(min) ,UE gap =0.0517258(min) = (0.624401 %)
+ODME #234, link MAE= 121.888,link_MAPE: 36.3534%,system_MPE: 31.1522%,avg_tt = 8.28606(min) ,UE gap =0.0492725(min) = (0.594644 %)
+ODME #235, link MAE= 143.132,link_MAPE: 33.6565%,system_MPE: 22.9043%,avg_tt = 8.28147(min) ,UE gap =0.0516568(min) = (0.623764 %)
+ODME #236, link MAE= 121.998,link_MAPE: 36.2515%,system_MPE: 31.0725%,avg_tt = 8.29419(min) ,UE gap =0.0490511(min) = (0.591391 %)
+ODME #237, link MAE= 143.446,link_MAPE: 33.5798%,system_MPE: 22.7732%,avg_tt = 8.30946(min) ,UE gap =0.0516569(min) = (0.621663 %)
+ODME #238, link MAE= 122.002,link_MAPE: 36.1486%,system_MPE: 30.9412%,avg_tt = 8.29146(min) ,UE gap =0.0489151(min) = (0.589946 %)
+ODME #239, link MAE= 142.56,link_MAPE: 33.4699%,system_MPE: 22.7404%,avg_tt = 8.32772(min) ,UE gap =0.0517066(min) = (0.620897 %)
+ODME #240, link MAE= 122.091,link_MAPE: 36.0514%,system_MPE: 30.866%,avg_tt = 8.41345(min) ,UE gap =0.0496933(min) = (0.590641 %)
+ODME #241, link MAE= 142.834,link_MAPE: 33.3978%,system_MPE: 22.6209%,avg_tt = 8.3442(min) ,UE gap =0.0517332(min) = (0.61999 %)
+ODME #242, link MAE= 122.062,link_MAPE: 35.9599%,system_MPE: 30.7495%,avg_tt = 8.28711(min) ,UE gap =0.0488643(min) = (0.589642 %)
+ODME #243, link MAE= 141.986,link_MAPE: 33.2974%,system_MPE: 22.5959%,avg_tt = 8.3696(min) ,UE gap =0.0517653(min) = (0.618492 %)
+ODME #244, link MAE= 122.115,link_MAPE: 35.8735%,system_MPE: 30.6839%,avg_tt = 8.30552(min) ,UE gap =0.0488517(min) = (0.588183 %)
+ODME #245, link MAE= 142.22,link_MAPE: 33.232%,system_MPE: 22.4887%,avg_tt = 8.31926(min) ,UE gap =0.0513474(min) = (0.617211 %)
+ODME #246, link MAE= 122.087,link_MAPE: 35.7902%,system_MPE: 30.5763%,avg_tt = 8.3154(min) ,UE gap =0.0488746(min) = (0.58776 %)
+ODME #247, link MAE= 141.377,link_MAPE: 33.1447%,system_MPE: 22.4801%,avg_tt = 8.50171(min) ,UE gap =0.0526455(min) = (0.619234 %)
+ODME #248, link MAE= 122.123,link_MAPE: 35.7189%,system_MPE: 30.5289%,avg_tt = 8.28763(min) ,UE gap =0.0487143(min) = (0.587796 %)
+ODME #249, link MAE= 141.623,link_MAPE: 33.0933%,system_MPE: 22.3854%,avg_tt = 8.31716(min) ,UE gap =0.0514673(min) = (0.618809 %)
+ODME #250, link MAE= 122.108,link_MAPE: 35.6523%,system_MPE: 30.44%,avg_tt = 8.36464(min) ,UE gap =0.0489511(min) = (0.585215 %)
+ODME #251, link MAE= 140.796,link_MAPE: 33.0192%,system_MPE: 22.389%,avg_tt = 8.32265(min) ,UE gap =0.051254(min) = (0.615837 %)
+ODME #252, link MAE= 122.147,link_MAPE: 35.5929%,system_MPE: 30.4053%,avg_tt = 8.3132(min) ,UE gap =0.048667(min) = (0.585419 %)
+ODME #253, link MAE= 141.011,link_MAPE: 32.9795%,system_MPE: 22.3118%,avg_tt = 8.30105(min) ,UE gap =0.0512681(min) = (0.61761 %)
+ODME #254, link MAE= 122.136,link_MAPE: 35.5442%,system_MPE: 30.3361%,avg_tt = 8.41916(min) ,UE gap =0.0492047(min) = (0.584436 %)
+ODME #255, link MAE= 140.249,link_MAPE: 32.9302%,system_MPE: 22.3313%,avg_tt = 8.31758(min) ,UE gap =0.0510052(min) = (0.613221 %)
+ODME #256, link MAE= 122.172,link_MAPE: 35.51%,system_MPE: 30.3197%,avg_tt = 8.29249(min) ,UE gap =0.0485114(min) = (0.585004 %)
+ODME #257, link MAE= 140.397,link_MAPE: 32.895%,system_MPE: 22.2586%,avg_tt = 8.3022(min) ,UE gap =0.0523914(min) = (0.631055 %)
+ODME #258, link MAE= 122.178,link_MAPE: 35.4649%,system_MPE: 30.252%,avg_tt = 8.29855(min) ,UE gap =0.0483185(min) = (0.582252 %)
+ODME #259, link MAE= 139.699,link_MAPE: 32.8549%,system_MPE: 22.2757%,avg_tt = 8.29651(min) ,UE gap =0.0509833(min) = (0.614515 %)
+ODME #260, link MAE= 122.183,link_MAPE: 35.4352%,system_MPE: 30.236%,avg_tt = 8.28161(min) ,UE gap =0.0483693(min) = (0.584057 %)
+ODME #261, link MAE= 139.717,link_MAPE: 32.8237%,system_MPE: 22.2159%,avg_tt = 8.31124(min) ,UE gap =0.0509715(min) = (0.613283 %)
+ODME #262, link MAE= 122.175,link_MAPE: 35.4021%,system_MPE: 30.1838%,avg_tt = 8.29694(min) ,UE gap =0.048331(min) = (0.582516 %)
+ODME #263, link MAE= 139.114,link_MAPE: 32.7905%,system_MPE: 22.2282%,avg_tt = 8.32178(min) ,UE gap =0.0511352(min) = (0.614474 %)
+ODME #264, link MAE= 122.128,link_MAPE: 35.3752%,system_MPE: 30.1662%,avg_tt = 8.30063(min) ,UE gap =0.0484193(min) = (0.583321 %)
+ODME #265, link MAE= 139.045,link_MAPE: 32.7639%,system_MPE: 22.1822%,avg_tt = 8.31032(min) ,UE gap =0.0510396(min) = (0.614172 %)
+ODME #266, link MAE= 122.12,link_MAPE: 35.3476%,system_MPE: 30.1207%,avg_tt = 8.34825(min) ,UE gap =0.0485497(min) = (0.581556 %)
+ODME #267, link MAE= 138.533,link_MAPE: 32.7353%,system_MPE: 22.1894%,avg_tt = 8.32051(min) ,UE gap =0.051061(min) = (0.613677 %)
+ODME #268, link MAE= 122.094,link_MAPE: 35.3268%,system_MPE: 30.1062%,avg_tt = 8.3162(min) ,UE gap =0.0485223(min) = (0.583467 %)
+ODME #269, link MAE= 138.433,link_MAPE: 32.7126%,system_MPE: 22.153%,avg_tt = 8.29301(min) ,UE gap =0.0509551(min) = (0.614434 %)
+ODME #270, link MAE= 122.113,link_MAPE: 35.3045%,system_MPE: 30.0664%,avg_tt = 8.29422(min) ,UE gap =0.0483779(min) = (0.583272 %)
+ODME #271, link MAE= 138.025,link_MAPE: 32.6881%,system_MPE: 22.1555%,avg_tt = 8.32381(min) ,UE gap =0.0510787(min) = (0.613646 %)
+ODME #272, link MAE= 122.089,link_MAPE: 35.2834%,system_MPE: 30.044%,avg_tt = 8.27315(min) ,UE gap =0.0485349(min) = (0.586656 %)
+ODME #273, link MAE= 137.86,link_MAPE: 32.6651%,system_MPE: 22.128%,avg_tt = 8.30367(min) ,UE gap =0.0509995(min) = (0.614179 %)
+ODME #274, link MAE= 122.074,link_MAPE: 35.2611%,system_MPE: 30.0072%,avg_tt = 8.31574(min) ,UE gap =0.0486654(min) = (0.585221 %)
+ODME #275, link MAE= 137.471,link_MAPE: 32.6424%,system_MPE: 22.1295%,avg_tt = 8.18188(min) ,UE gap =0.0511732(min) = (0.625445 %)
+ODME #276, link MAE= 122.046,link_MAPE: 35.2443%,system_MPE: 29.9875%,avg_tt = 8.29916(min) ,UE gap =0.0486597(min) = (0.58632 %)
+ODME #277, link MAE= 137.261,link_MAPE: 32.6234%,system_MPE: 22.1113%,avg_tt = 8.35563(min) ,UE gap =0.0515398(min) = (0.616828 %)
+ODME #278, link MAE= 122.027,link_MAPE: 35.2209%,system_MPE: 29.9531%,avg_tt = 8.30423(min) ,UE gap =0.0486427(min) = (0.585758 %)
+ODME #279, link MAE= 136.929,link_MAPE: 32.6052%,system_MPE: 22.1108%,avg_tt = 8.38302(min) ,UE gap =0.0516119(min) = (0.615671 %)
+ODME #280, link MAE= 122.004,link_MAPE: 35.2051%,system_MPE: 29.9353%,avg_tt = 8.3152(min) ,UE gap =0.0488849(min) = (0.587897 %)
+ODME #281, link MAE= 136.708,link_MAPE: 32.5881%,system_MPE: 22.0988%,avg_tt = 8.31467(min) ,UE gap =0.0513287(min) = (0.617327 %)
+ODME #282, link MAE= 122.001,link_MAPE: 35.189%,system_MPE: 29.9116%,avg_tt = 8.30702(min) ,UE gap =0.0489222(min) = (0.588927 %)
+ODME #283, link MAE= 136.414,link_MAPE: 32.5709%,system_MPE: 22.0979%,avg_tt = 8.49788(min) ,UE gap =0.0525333(min) = (0.618193 %)
+ODME #284, link MAE= 122.022,link_MAPE: 35.18%,system_MPE: 29.8964%,avg_tt = 8.37459(min) ,UE gap =0.0493688(min) = (0.589508 %)
+ODME #285, link MAE= 136.179,link_MAPE: 32.5547%,system_MPE: 22.0908%,avg_tt = 8.35159(min) ,UE gap =0.0517695(min) = (0.619877 %)
+ODME #286, link MAE= 122.035,link_MAPE: 35.1688%,system_MPE: 29.8764%,avg_tt = 8.34967(min) ,UE gap =0.0495162(min) = (0.593032 %)
+ODME #287, link MAE= 135.915,link_MAPE: 32.5398%,system_MPE: 22.09%,avg_tt = 8.36164(min) ,UE gap =0.0519482(min) = (0.621269 %)
+ODME #288, link MAE= 122.054,link_MAPE: 35.1612%,system_MPE: 29.8615%,avg_tt = 8.45371(min) ,UE gap =0.050149(min) = (0.593218 %)
+ODME #289, link MAE= 135.659,link_MAPE: 32.5265%,system_MPE: 22.0902%,avg_tt = 8.28061(min) ,UE gap =0.0519674(min) = (0.62758 %)
+ODME #290, link MAE= 122.105,link_MAPE: 35.1555%,system_MPE: 29.8476%,avg_tt = 8.33669(min) ,UE gap =0.0494278(min) = (0.592895 %)
+ODME #291, link MAE= 135.402,link_MAPE: 32.5138%,system_MPE: 22.0919%,avg_tt = 8.36156(min) ,UE gap =0.0520604(min) = (0.622616 %)
+ODME #292, link MAE= 122.149,link_MAPE: 35.1493%,system_MPE: 29.8349%,avg_tt = 8.42584(min) ,UE gap =0.050086(min) = (0.594434 %)
+ODME #293, link MAE= 135.155,link_MAPE: 32.5024%,system_MPE: 22.0939%,avg_tt = 8.33748(min) ,UE gap =0.0523075(min) = (0.627378 %)
+ODME #294, link MAE= 122.176,link_MAPE: 35.1444%,system_MPE: 29.8252%,avg_tt = 8.29226(min) ,UE gap =0.0495127(min) = (0.597095 %)
+ODME #295, link MAE= 134.912,link_MAPE: 32.4914%,system_MPE: 22.0974%,avg_tt = 8.3194(min) ,UE gap =0.0521607(min) = (0.626977 %)
+ODME #296, link MAE= 122.137,link_MAPE: 35.139%,system_MPE: 29.8169%,avg_tt = 8.49798(min) ,UE gap =0.0507655(min) = (0.597383 %)
+ODME #297, link MAE= 134.634,link_MAPE: 32.4834%,system_MPE: 22.1059%,avg_tt = 8.28864(min) ,UE gap =0.052245(min) = (0.630321 %)
+ODME #298, link MAE= 122.08,link_MAPE: 35.1348%,system_MPE: 29.8135%,avg_tt = 8.28768(min) ,UE gap =0.0498009(min) = (0.600903 %)
+ODME #299, link MAE= 134.346,link_MAPE: 32.477%,system_MPE: 22.1151%,avg_tt = 8.32995(min) ,UE gap =0.0525101(min) = (0.630378 %)
+ODME #300, link MAE= 122.005,link_MAPE: 35.1264%,system_MPE: 29.8074%,avg_tt = 8.31354(min) ,UE gap =0.0501176(min) = (0.602843 %)
+ODME #301, link MAE= 134.032,link_MAPE: 32.4691%,system_MPE: 22.1253%,avg_tt = 8.31026(min) ,UE gap =0.0525845(min) = (0.632766 %)
+ODME #302, link MAE= 121.927,link_MAPE: 35.1184%,system_MPE: 29.8021%,avg_tt = 8.47173(min) ,UE gap =0.0512461(min) = (0.604907 %)
+ODME #303, link MAE= 133.721,link_MAPE: 32.46%,system_MPE: 22.1344%,avg_tt = 8.32049(min) ,UE gap =0.052876(min) = (0.635492 %)
+ODME #304, link MAE= 121.852,link_MAPE: 35.1114%,system_MPE: 29.7974%,avg_tt = 8.31414(min) ,UE gap =0.0505809(min) = (0.608372 %)
+ODME #305, link MAE= 133.416,link_MAPE: 32.4512%,system_MPE: 22.1422%,avg_tt = 8.31124(min) ,UE gap =0.0530027(min) = (0.637724 %)
+ODME #306, link MAE= 121.791,link_MAPE: 35.1032%,system_MPE: 29.7925%,avg_tt = 8.33367(min) ,UE gap =0.0507467(min) = (0.608936 %)
+ODME #307, link MAE= 133.114,link_MAPE: 32.4421%,system_MPE: 22.1486%,avg_tt = 8.31723(min) ,UE gap =0.0533181(min) = (0.641056 %)
+ODME #308, link MAE= 121.757,link_MAPE: 35.0942%,system_MPE: 29.7866%,avg_tt = 8.2861(min) ,UE gap =0.0509822(min) = (0.615274 %)
+ODME #309, link MAE= 132.814,link_MAPE: 32.4303%,system_MPE: 22.1539%,avg_tt = 8.33643(min) ,UE gap =0.0536836(min) = (0.643964 %)
+ODME #310, link MAE= 121.709,link_MAPE: 35.0863%,system_MPE: 29.7776%,avg_tt = 8.31396(min) ,UE gap =0.0511228(min) = (0.614903 %)
+ODME #311, link MAE= 132.519,link_MAPE: 32.4148%,system_MPE: 22.1553%,avg_tt = 8.29604(min) ,UE gap =0.0537976(min) = (0.648473 %)
+ODME #312, link MAE= 121.677,link_MAPE: 35.0795%,system_MPE: 29.7661%,avg_tt = 8.3018(min) ,UE gap =0.0513333(min) = (0.618339 %)
+ODME #313, link MAE= 132.222,link_MAPE: 32.3952%,system_MPE: 22.1528%,avg_tt = 8.21879(min) ,UE gap =0.0542339(min) = (0.659877 %)
+ODME #314, link MAE= 121.638,link_MAPE: 35.0662%,system_MPE: 29.749%,avg_tt = 8.31427(min) ,UE gap =0.0516385(min) = (0.621083 %)
+ODME #315, link MAE= 131.939,link_MAPE: 32.3725%,system_MPE: 22.1455%,avg_tt = 8.31605(min) ,UE gap =0.0543265(min) = (0.653273 %)
+ODME #316, link MAE= 121.61,link_MAPE: 35.0534%,system_MPE: 29.7315%,avg_tt = 8.31297(min) ,UE gap =0.0518474(min) = (0.623693 %)
+ODME #317, link MAE= 131.657,link_MAPE: 32.3457%,system_MPE: 22.1349%,avg_tt = 8.32865(min) ,UE gap =0.0547245(min) = (0.657063 %)
+ODME #318, link MAE= 121.594,link_MAPE: 35.0299%,system_MPE: 29.7004%,avg_tt = 8.31019(min) ,UE gap =0.0523013(min) = (0.629363 %)
+ODME #319, link MAE= 131.383,link_MAPE: 32.316%,system_MPE: 22.1206%,avg_tt = 8.32151(min) ,UE gap =0.0548175(min) = (0.658744 %)
+ODME #320, link MAE= 121.576,link_MAPE: 35.0067%,system_MPE: 29.6701%,avg_tt = 8.30284(min) ,UE gap =0.0524315(min) = (0.631489 %)
+ODME #321, link MAE= 131.126,link_MAPE: 32.2834%,system_MPE: 22.1024%,avg_tt = 8.31837(min) ,UE gap =0.0550804(min) = (0.662153 %)
+ODME #322, link MAE= 121.569,link_MAPE: 34.9802%,system_MPE: 29.6364%,avg_tt = 8.31817(min) ,UE gap =0.0526741(min) = (0.633242 %)
+ODME #323, link MAE= 130.902,link_MAPE: 32.248%,system_MPE: 22.0778%,avg_tt = 8.32453(min) ,UE gap =0.0553597(min) = (0.66502 %)
+ODME #324, link MAE= 121.566,link_MAPE: 34.9495%,system_MPE: 29.5969%,avg_tt = 8.31295(min) ,UE gap =0.0529039(min) = (0.636404 %)
+ODME #325, link MAE= 130.651,link_MAPE: 32.2101%,system_MPE: 22.0514%,avg_tt = 8.30081(min) ,UE gap =0.0557(min) = (0.671018 %)
+ODME #326, link MAE= 121.543,link_MAPE: 34.9106%,system_MPE: 29.5506%,avg_tt = 8.30588(min) ,UE gap =0.0532048(min) = (0.640568 %)
+ODME #327, link MAE= 130.432,link_MAPE: 32.1679%,system_MPE: 22.0153%,avg_tt = 8.35417(min) ,UE gap =0.0562952(min) = (0.673858 %)
+ODME #328, link MAE= 121.505,link_MAPE: 34.866%,system_MPE: 29.4951%,avg_tt = 8.31675(min) ,UE gap =0.0537131(min) = (0.645842 %)
+ODME #329, link MAE= 130.149,link_MAPE: 32.12%,system_MPE: 21.9849%,avg_tt = 8.31879(min) ,UE gap =0.0562752(min) = (0.676483 %)
+ODME #330, link MAE= 121.371,link_MAPE: 34.8151%,system_MPE: 29.4378%,avg_tt = 8.31637(min) ,UE gap =0.0539829(min) = (0.649116 %)
+ODME #331, link MAE= 129.926,link_MAPE: 32.0677%,system_MPE: 21.938%,avg_tt = 8.29536(min) ,UE gap =0.0564855(min) = (0.680929 %)
+ODME #332, link MAE= 121.299,link_MAPE: 34.7579%,system_MPE: 29.3666%,avg_tt = 8.31133(min) ,UE gap =0.0540091(min) = (0.649826 %)
+ODME #333, link MAE= 129.598,link_MAPE: 32.013%,system_MPE: 21.9126%,avg_tt = 8.27474(min) ,UE gap =0.0569695(min) = (0.688474 %)
+ODME #334, link MAE= 121.14,link_MAPE: 34.7006%,system_MPE: 29.3093%,avg_tt = 8.32338(min) ,UE gap =0.0545684(min) = (0.655604 %)
+ODME #335, link MAE= 129.455,link_MAPE: 31.9636%,system_MPE: 21.8586%,avg_tt = 8.31936(min) ,UE gap =0.0573783(min) = (0.689696 %)
+ODME #336, link MAE= 121.106,link_MAPE: 34.6451%,system_MPE: 29.2368%,avg_tt = 8.29624(min) ,UE gap =0.0547789(min) = (0.660286 %)
+ODME #337, link MAE= 129.103,link_MAPE: 31.9125%,system_MPE: 21.8451%,avg_tt = 8.32519(min) ,UE gap =0.0576587(min) = (0.69258 %)
+ODME #338, link MAE= 120.921,link_MAPE: 34.5899%,system_MPE: 29.1879%,avg_tt = 8.29267(min) ,UE gap =0.0549873(min) = (0.663084 %)
+ODME #339, link MAE= 129.04,link_MAPE: 31.8743%,system_MPE: 21.7891%,avg_tt = 8.20933(min) ,UE gap =0.0576775(min) = (0.702585 %)
+ODME #340, link MAE= 120.909,link_MAPE: 34.5393%,system_MPE: 29.1181%,avg_tt = 8.30034(min) ,UE gap =0.0551351(min) = (0.664251 %)
+ODME #341, link MAE= 128.705,link_MAPE: 31.8296%,system_MPE: 21.7827%,avg_tt = 8.30208(min) ,UE gap =0.0578756(min) = (0.697122 %)
+ODME #342, link MAE= 120.742,link_MAPE: 34.4882%,system_MPE: 29.0702%,avg_tt = 8.34079(min) ,UE gap =0.0556256(min) = (0.666911 %)
+ODME #343, link MAE= 128.694,link_MAPE: 31.7933%,system_MPE: 21.7277%,avg_tt = 8.31217(min) ,UE gap =0.0580951(min) = (0.698917 %)
+ODME #344, link MAE= 120.754,link_MAPE: 34.4387%,system_MPE: 28.9978%,avg_tt = 8.37438(min) ,UE gap =0.0560739(min) = (0.669588 %)
+ODME #345, link MAE= 128.411,link_MAPE: 31.748%,system_MPE: 21.7148%,avg_tt = 8.34272(min) ,UE gap =0.0585851(min) = (0.702231 %)
+ODME #346, link MAE= 120.645,link_MAPE: 34.3887%,system_MPE: 28.9476%,avg_tt = 8.31565(min) ,UE gap =0.0560489(min) = (0.674017 %)
+ODME #347, link MAE= 128.382,link_MAPE: 31.7096%,system_MPE: 21.6647%,avg_tt = 8.30845(min) ,UE gap =0.0586822(min) = (0.706296 %)
+ODME #348, link MAE= 120.67,link_MAPE: 34.3407%,system_MPE: 28.8794%,avg_tt = 8.32225(min) ,UE gap =0.0562034(min) = (0.675339 %)
+ODME #349, link MAE= 128.127,link_MAPE: 31.6667%,system_MPE: 21.6524%,avg_tt = 8.41783(min) ,UE gap =0.0597977(min) = (0.71037 %)
+ODME #350, link MAE= 120.556,link_MAPE: 34.2899%,system_MPE: 28.8262%,avg_tt = 8.3116(min) ,UE gap =0.0564899(min) = (0.679652 %)
+ODME #351, link MAE= 128.087,link_MAPE: 31.6305%,system_MPE: 21.607%,avg_tt = 8.33807(min) ,UE gap =0.0592826(min) = (0.710987 %)
+ODME #352, link MAE= 120.557,link_MAPE: 34.2527%,system_MPE: 28.7687%,avg_tt = 8.27768(min) ,UE gap =0.0566759(min) = (0.684683 %)
+ODME #353, link MAE= 127.845,link_MAPE: 31.5905%,system_MPE: 21.5962%,avg_tt = 8.33933(min) ,UE gap =0.059615(min) = (0.714865 %)
+ODME #354, link MAE= 120.441,link_MAPE: 34.205%,system_MPE: 28.7134%,avg_tt = 8.32855(min) ,UE gap =0.0571486(min) = (0.686177 %)
+ODME #355, link MAE= 127.766,link_MAPE: 31.5568%,system_MPE: 21.5622%,avg_tt = 8.28814(min) ,UE gap =0.0596338(min) = (0.719508 %)
+ODME #356, link MAE= 120.411,link_MAPE: 34.1732%,system_MPE: 28.6643%,avg_tt = 8.34733(min) ,UE gap =0.0573911(min) = (0.687539 %)
+ODME #357, link MAE= 127.573,link_MAPE: 31.524%,system_MPE: 21.5503%,avg_tt = 8.30179(min) ,UE gap =0.0598449(min) = (0.720868 %)
+ODME #358, link MAE= 120.326,link_MAPE: 34.1398%,system_MPE: 28.6231%,avg_tt = 8.33119(min) ,UE gap =0.0575654(min) = (0.690963 %)
+ODME #359, link MAE= 127.486,link_MAPE: 31.497%,system_MPE: 21.5235%,avg_tt = 8.37851(min) ,UE gap =0.0607067(min) = (0.724552 %)
+ODME #360, link MAE= 120.284,link_MAPE: 34.1083%,system_MPE: 28.5764%,avg_tt = 8.29425(min) ,UE gap =0.0576895(min) = (0.695536 %)
+ODME #361, link MAE= 127.329,link_MAPE: 31.4708%,system_MPE: 21.5109%,avg_tt = 8.30422(min) ,UE gap =0.0605411(min) = (0.72904 %)
+ODME #362, link MAE= 120.207,link_MAPE: 34.0776%,system_MPE: 28.5356%,avg_tt = 8.34467(min) ,UE gap =0.0581483(min) = (0.696831 %)
+ODME #363, link MAE= 127.222,link_MAPE: 31.4496%,system_MPE: 21.4938%,avg_tt = 8.30991(min) ,UE gap =0.0606618(min) = (0.729993 %)
+ODME #364, link MAE= 120.159,link_MAPE: 34.0521%,system_MPE: 28.4972%,avg_tt = 8.31335(min) ,UE gap =0.0581507(min) = (0.699486 %)
+ODME #365, link MAE= 127.074,link_MAPE: 31.4285%,system_MPE: 21.4846%,avg_tt = 8.33894(min) ,UE gap =0.061077(min) = (0.732431 %)
+ODME #366, link MAE= 120.103,link_MAPE: 34.0262%,system_MPE: 28.4611%,avg_tt = 8.315(min) ,UE gap =0.0584163(min) = (0.702542 %)
+ODME #367, link MAE= 126.949,link_MAPE: 31.4093%,system_MPE: 21.4723%,avg_tt = 8.61218(min) ,UE gap =0.063262(min) = (0.734565 %)
+ODME #368, link MAE= 120.059,link_MAPE: 34.0008%,system_MPE: 28.4238%,avg_tt = 8.1471(min) ,UE gap =0.0590052(min) = (0.724248 %)
+ODME #369, link MAE= 126.795,link_MAPE: 31.3904%,system_MPE: 21.4648%,avg_tt = 8.31312(min) ,UE gap =0.0613744(min) = (0.738284 %)
+ODME #370, link MAE= 120.001,link_MAPE: 33.9811%,system_MPE: 28.3946%,avg_tt = 8.29323(min) ,UE gap =0.0588478(min) = (0.709588 %)
+ODME #371, link MAE= 126.649,link_MAPE: 31.3729%,system_MPE: 21.4562%,avg_tt = 8.34041(min) ,UE gap =0.0617333(min) = (0.740171 %)
+ODME #372, link MAE= 119.94,link_MAPE: 33.9579%,system_MPE: 28.3605%,avg_tt = 8.32941(min) ,UE gap =0.0592144(min) = (0.710907 %)
+ODME #373, link MAE= 126.488,link_MAPE: 31.3535%,system_MPE: 21.4485%,avg_tt = 8.3222(min) ,UE gap =0.0618758(min) = (0.743503 %)
+ODME #374, link MAE= 119.871,link_MAPE: 33.9304%,system_MPE: 28.3236%,avg_tt = 8.29224(min) ,UE gap =0.0592666(min) = (0.714724 %)
+ODME #375, link MAE= 126.343,link_MAPE: 31.3317%,system_MPE: 21.4362%,avg_tt = 8.27953(min) ,UE gap =0.0618374(min) = (0.746871 %)
+ODME #376, link MAE= 119.812,link_MAPE: 33.9145%,system_MPE: 28.2981%,avg_tt = 8.2866(min) ,UE gap =0.0593745(min) = (0.716513 %)
+ODME #377, link MAE= 126.192,link_MAPE: 31.3202%,system_MPE: 21.4356%,avg_tt = 8.33523(min) ,UE gap =0.0621989(min) = (0.746217 %)
+ODME #378, link MAE= 119.747,link_MAPE: 33.9023%,system_MPE: 28.2769%,avg_tt = 8.1539(min) ,UE gap =0.059509(min) = (0.729823 %)
+ODME #379, link MAE= 126.042,link_MAPE: 31.3105%,system_MPE: 21.4375%,avg_tt = 8.3041(min) ,UE gap =0.0621733(min) = (0.748706 %)
+ODME #380, link MAE= 119.683,link_MAPE: 33.8941%,system_MPE: 28.2607%,avg_tt = 8.31958(min) ,UE gap =0.0599621(min) = (0.720735 %)
+ODME #381, link MAE= 125.892,link_MAPE: 31.303%,system_MPE: 21.4421%,avg_tt = 8.29082(min) ,UE gap =0.0623487(min) = (0.75202 %)
+ODME #382, link MAE= 119.618,link_MAPE: 33.8891%,system_MPE: 28.2481%,avg_tt = 8.3494(min) ,UE gap =0.0601525(min) = (0.720441 %)
+ODME #383, link MAE= 125.738,link_MAPE: 31.2973%,system_MPE: 21.4492%,avg_tt = 8.30595(min) ,UE gap =0.0624902(min) = (0.752354 %)
+ODME #384, link MAE= 119.556,link_MAPE: 33.8867%,system_MPE: 28.2386%,avg_tt = 8.31181(min) ,UE gap =0.0600794(min) = (0.72282 %)
+ODME #385, link MAE= 125.588,link_MAPE: 31.2935%,system_MPE: 21.4582%,avg_tt = 8.3283(min) ,UE gap =0.0627946(min) = (0.753991 %)
+ODME #386, link MAE= 119.493,link_MAPE: 33.8864%,system_MPE: 28.2314%,avg_tt = 8.27042(min) ,UE gap =0.0602073(min) = (0.727984 %)
+ODME #387, link MAE= 125.436,link_MAPE: 31.2912%,system_MPE: 21.4698%,avg_tt = 8.12671(min) ,UE gap =0.0629063(min) = (0.774068 %)
+ODME #388, link MAE= 119.432,link_MAPE: 33.8882%,system_MPE: 28.2273%,avg_tt = 8.24505(min) ,UE gap =0.0603106(min) = (0.731476 %)
+ODME #389, link MAE= 125.285,link_MAPE: 31.2912%,system_MPE: 21.4837%,avg_tt = 8.31457(min) ,UE gap =0.0631217(min) = (0.75917 %)
+ODME #390, link MAE= 119.371,link_MAPE: 33.8927%,system_MPE: 28.2263%,avg_tt = 8.38364(min) ,UE gap =0.0610192(min) = (0.727836 %)
+ODME #391, link MAE= 125.135,link_MAPE: 31.2931%,system_MPE: 21.5002%,avg_tt = 8.31922(min) ,UE gap =0.0631399(min) = (0.758965 %)
+ODME #392, link MAE= 119.309,link_MAPE: 33.8966%,system_MPE: 28.2252%,avg_tt = 8.30386(min) ,UE gap =0.0604473(min) = (0.727943 %)
+ODME #393, link MAE= 124.981,link_MAPE: 31.2969%,system_MPE: 21.5196%,avg_tt = 8.29782(min) ,UE gap =0.063072(min) = (0.760104 %)
+ODME #394, link MAE= 119.241,link_MAPE: 33.9036%,system_MPE: 28.228%,avg_tt = 8.31471(min) ,UE gap =0.060633(min) = (0.729227 %)
+ODME #395, link MAE= 124.833,link_MAPE: 31.3032%,system_MPE: 21.5417%,avg_tt = 8.30118(min) ,UE gap =0.0631424(min) = (0.760643 %)
+ODME #396, link MAE= 119.172,link_MAPE: 33.9149%,system_MPE: 28.2357%,avg_tt = 8.41835(min) ,UE gap =0.0619256(min) = (0.735603 %)
+ODME #397, link MAE= 124.7,link_MAPE: 31.3125%,system_MPE: 21.5659%,avg_tt = 8.27024(min) ,UE gap =0.0631879(min) = (0.764039 %)
+ODME #398, link MAE= 119.116,link_MAPE: 33.9287%,system_MPE: 28.2455%,avg_tt = 8.32415(min) ,UE gap =0.0609029(min) = (0.731641 %)
+ODME #399, link MAE= 124.594,link_MAPE: 31.3245%,system_MPE: 21.5931%,avg_tt = 8.27084(min) ,UE gap =0.0632415(min) = (0.764632 %)
+ODME #400, link MAE= 119.069,link_MAPE: 33.9442%,system_MPE: 28.2593%,avg_tt = 8.28867(min) ,UE gap =0.0609257(min) = (0.735047 %)
+column updating: iteration= 0, avg travel time = 8.37758(min), optimization obj = 8229.31,Relative_gap=0.792264 %
+column updating: iteration= 1, avg travel time = 8.37659(min), optimization obj = 8093.58,Relative_gap=0.779292 %
+column updating: iteration= 2, avg travel time = 8.37564(min), optimization obj = 7962.95,Relative_gap=0.766802 %
+column updating: iteration= 3, avg travel time = 8.37472(min), optimization obj = 7837.18,Relative_gap=0.754776 %
+column updating: iteration= 4, avg travel time = 8.37384(min), optimization obj = 7716.08,Relative_gap=0.743193 %
+column updating: iteration= 5, avg travel time = 8.37299(min), optimization obj = 7599.46,Relative_gap=0.732035 %
+column updating: iteration= 6, avg travel time = 8.37218(min), optimization obj = 7487.12,Relative_gap=0.721286 %
+column updating: iteration= 7, avg travel time = 8.3714(min), optimization obj = 7378.9,Relative_gap=0.710927 %
+column updating: iteration= 8, avg travel time = 8.37065(min), optimization obj = 7274.61,Relative_gap=0.700944 %
+column updating: iteration= 9, avg travel time = 8.36992(min), optimization obj = 7174.1,Relative_gap=0.691321 %
+column updating: iteration= 10, avg travel time = 8.36923(min), optimization obj = 7077.22,Relative_gap=0.682042 %
+column updating: iteration= 11, avg travel time = 8.36856(min), optimization obj = 6983.81,Relative_gap=0.673095 %
+column updating: iteration= 12, avg travel time = 8.36791(min), optimization obj = 6893.73,Relative_gap=0.664466 %
+column updating: iteration= 13, avg travel time = 8.36729(min), optimization obj = 6806.86,Relative_gap=0.656143 %
+column updating: iteration= 14, avg travel time = 8.3667(min), optimization obj = 6723.05,Relative_gap=0.648112 %
+column updating: iteration= 15, avg travel time = 8.36612(min), optimization obj = 6642.2,Relative_gap=0.640362 %
+column updating: iteration= 16, avg travel time = 8.36557(min), optimization obj = 6564.17,Relative_gap=0.632882 %
+column updating: iteration= 17, avg travel time = 8.36503(min), optimization obj = 6488.86,Relative_gap=0.625662 %
+column updating: iteration= 18, avg travel time = 8.36452(min), optimization obj = 6416.16,Relative_gap=0.618691 %
+column updating: iteration= 19, avg travel time = 8.36403(min), optimization obj = 6345.96,Relative_gap=0.61196 %
+
+Done!
+CPU Running Time for the entire computing progcess: 8.971 s
+Step 1.9: Reading file section [output_file_configuration] in setting.csv...
+dynamic_link_performance_sampling_interval_in_min= 60 min
+dynamic_link_performance_sampling_interval_hd_in_min= 15 min
+writing od_accessibility.csv..
+writing data for 56  zones 
+writing link_performance.csv..
+writing route_assignment.csv..
+writing link_performance.csv..
+writing data for 56  zones 
+writing link_queue_profile.csv..
+writing dynamic_link_performance.csv..
+writing trajectory.bin..
+writing data for 56  zones 
+Comlete writing 0K binary agents with CPU time 0.002 s.
+writing trajectory.csv..
+writing data for 56  zones 
+writing trace.csv..
+writing data for 56  zones 
+reading 000k TMC data items
+reading data for 61 TMC links.
+Output for assignment with 20 iterations. Traffic assignment completes!
+CPU Running Time for outputting simulation results: 0.447 s
+free memory..
+CPU Running Time for Entire Process: 0 min 9 sec
+done.
